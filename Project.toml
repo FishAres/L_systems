@@ -1,7 +1,11 @@
 name = "L_systems"
 authors = ["FishAres"]
-[compat]
-julia = "1.8.4"
-DrWatson = "2.12.1"
+
 [deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Lindenmayer = "d9db2020-d13e-4bf8-b13e-b12a3214b5ef"
+
+[compat]
+DrWatson = "2.12.1"
+julia = "1.8.4"
